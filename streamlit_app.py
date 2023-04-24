@@ -37,7 +37,7 @@ except URLError as e:
      streamlit.error()
 streamlit.stop()
 
- streamlit.header("The fruit load list contains:")
+streamlit.header("The fruit load list contains:")
 
 
 #def function
@@ -54,4 +54,4 @@ if streamlit.button('Get Fruit Load List'):
 --add_my_fruit = streamlit.text_input('Which fruit you would like to add?')
 --streamlit.write('Thanks for adding ',add_my_fruit)
 
-my_cur.execute("insert into fruit_load_list values('from streamlit')")
+--my_cur.execute("insert into fruit_load_list values('from streamlit')")
